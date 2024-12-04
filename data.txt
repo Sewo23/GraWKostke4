@@ -1,0 +1,89 @@
+1. Podstawy SQL (jeśli dopiero zaczynasz)
+Zapytania SELECT:
+
+Jak pobierać dane z tabel (proste SELECT * i wybór konkretnych kolumn).
+Filtrowanie danych za pomocą WHERE.
+Sortowanie wyników za pomocą ORDER BY.
+Ograniczanie liczby wyników (LIMIT, OFFSET).
+Operacje na danych:
+
+Wstawianie danych (INSERT).
+Aktualizowanie danych (UPDATE).
+Usuwanie danych (DELETE).
+Podstawy tabel:
+
+Tworzenie tabel (CREATE TABLE).
+Usuwanie tabel (DROP TABLE).
+Modyfikowanie tabel (ALTER TABLE).
+Funkcje SQL:
+
+Używanie funkcji wbudowanych: COUNT, SUM, AVG, MIN, MAX.
+2. Relacje i bardziej zaawansowane zapytania (gdy znasz podstawy)
+Złączenia tabel (JOINS):
+
+Typy złączeń: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN.
+Łączenie wielu tabel w jednym zapytaniu.
+Grupowanie danych:
+
+Użycie GROUP BY.
+Filtrowanie grup za pomocą HAVING.
+Podzapytania:
+
+Proste podzapytania (w klauzuli WHERE lub FROM).
+Zagnieżdżone podzapytania.
+Widoki (Views):
+
+Tworzenie widoków (CREATE VIEW).
+Korzystanie z widoków w zapytaniach.
+3. Zaawansowane funkcje i optymalizacja
+Funkcje agregujące i okna:
+
+Funkcje okna (ROW_NUMBER, RANK, DENSE_RANK).
+Klauzula OVER().
+Indeksy:
+
+Tworzenie indeksów (CREATE INDEX).
+Kiedy stosować indeksy, aby poprawić wydajność.
+Transakcje:
+
+Jak działają transakcje w SQL (BEGIN, COMMIT, ROLLBACK).
+Izolacja transakcji (np. poziomy izolacji READ COMMITTED, SERIALIZABLE).
+Optymalizacja zapytań:
+
+Analiza planu wykonania zapytania (EXPLAIN lub EXPLAIN ANALYZE).
+Zmniejszanie czasu wykonania zapytań.
+4. Specjalistyczne tematy SQL
+Typy danych:
+
+Wybór odpowiednich typów danych (np. VARCHAR vs. TEXT, INT vs. BIGINT).
+Praca z danymi czasowymi (DATE, TIMESTAMP).
+SQL w różnych systemach:
+
+Różnice między MySQL, PostgreSQL, Oracle, SQL Server.
+Specyficzne rozszerzenia SQL (np. funkcje JSON w PostgreSQL).
+Procedury składowane i funkcje:
+
+Tworzenie procedur składowanych (CREATE PROCEDURE).
+Tworzenie funkcji użytkownika (CREATE FUNCTION).
+Bezpieczeństwo:
+
+Uprawnienia i role (GRANT, REVOKE).
+Zarządzanie użytkownikami.
+Praca z dużymi zbiorami danych:
+
+Partycjonowanie tabel.
+Klauzula WITH (Common Table Expressions - CTE).
+5. Projekty praktyczne
+Aby sprawdzić i zrozumieć swoją wiedzę, dodaj do swojej listy praktyczne cele:
+
+Utwórz bazę danych dla firmy:
+
+Projekt tabel (np. Klienci, Produkty, Zamówienia).
+Relacje między tabelami.
+Pisanie zapytań do analizy danych (np. miesięczna sprzedaż).
+Analiza danych publicznych:
+
+Pobierz dane publiczne (np. dane COVID-19, dane pogodowe) i zbuduj bazę do analizy.
+Wydajność:
+
+Optymalizuj powolne zapytania, analizując plany wykonania.

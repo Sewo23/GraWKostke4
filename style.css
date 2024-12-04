@@ -1,0 +1,95 @@
+/* style.css */
+
+
+
+
+body {
+  text-align: center;
+  background-image: url('DALL·E 2024-12-03 21.38.06 - A visually compelling background image inspired by the Matrix movie with a focus on ensuring a white text overlay is highly readable. The image featur.webp'); /* Ścieżka do obrazu */
+            background-size: cover; /* Dopasowanie obrazu do całej strony */
+            background-repeat: no-repeat; /* Nie powtarzaj obrazu */
+            background-position: center; /* Wyśrodkuj obraz */
+            filter: brightness(1.3)
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.7); /* Ciemne tło */
+  color: white; /* Biały tekst */
+  padding: 10px; /* Odstępy wokół tekstu */
+  display: inline-block; /* Dopasowanie tła do szerokości tekstu */
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.7); /* Ciemne tło */
+  color: white; /* Biały tekst */
+  padding: 10px; /* Odstępy wokół tekstu */
+  display: inline-block; /* Dopasowanie tła do szerokości tekstu */
+  text-align: center;
+}
+
+p {
+  color: #d41111; /* Kolor tekstu paragrafu */
+  text-align: justify; /* Wyrównanie tekstu */
+  margin: 20px;
+}
+
+.card {
+  width: 500px; /* Szerokość karty */
+  margin: 0 auto; /* Wyśrodkowanie karty */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodanie cienia */
+  border-radius: 10px; /* Zaokrąglone rogi */
+}
+
+.card-body {
+  display: flex; /* Użycie Flexboxa */
+  flex-direction: column; /* Ustaw kolumnowy układ */
+  justify-content: center; /* Wyśrodkowanie w pionie */
+  align-items: center; /* Wyśrodkowanie w poziomie */
+  text-align: center; /* Wyśrodkowanie tekstu wewnątrz elementów */
+  height: 100%; /* Upewnij się, że karta ma wysokość */
+  padding: 15px; /* Dodanie przestrzeni wewnątrz karty */
+  margin: 10px;
+}
+
+.card-title {
+  display: flex;
+  font-size: 20px; /* Rozmiar tekstu tytułu */
+  font-weight: bold; /* Pogrubienie tytułu */
+  text-align: center;
+}
+
+.card-text {
+  display: flex;
+  font-size: 18px; /* Rozmiar tekstu */
+  color: #555; /* Kolor tekstu */
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Kolor przycisku */
+  border: none; /* Usunięcie obramowania */
+  padding: 10px 20px; /* Wewnątrz przycisku */
+  border-radius: 5px; /* Zaokrąglone rogi przycisku */
+}
+
+.card {
+  min-height: 80px; /* Zapewnia jednakową wysokość kart */
+}
+
+.row {
+  align-items: start; /* Wyrównanie kart do góry */
+}
+
+.container {
+  margin-bottom: 10px; /* Dodanie odstępu między kartami a dolnym zdjęciem */
+  
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* Wyśrodkowanie dolnego zdjęcia */
+}
+
+
+
